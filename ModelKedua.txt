@@ -1,0 +1,38 @@
+DBMS:
+
+bagian log in:
+email (Primary Key)
+password
+"Tombol Login" -> mengeluarkan email yang sama
+
+bagian register:
+email (Primary Key)
+password
+pemilihan
+"Tombol register" -> langsung kesimpan ke dalam database
+
+bagian database akun:
+email (primary key)
+ID_costumer
+ID_pemasak
+password
+tipe_user
+
+bagian costumer:
+ID_costumer (Primary Key)
+nama
+email (Secondary key) -> ambil dari bagian akun
+password
+
+bagian pemasak:
+ID_pemasak (Primary Key)
+nama
+email (Secondar key) -> ambil dari bagian akun
+password
+
+bagian forum:
+ID_forum (Random Generated Primary Key)
+isian
+bintang
+
+
